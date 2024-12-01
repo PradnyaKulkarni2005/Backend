@@ -1,11 +1,19 @@
 {
-  "name": "backend",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "A simple backend project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    
+
   },
+  "keywords": [],
   "author": "Pradnya Kulkarni",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.21.1"
+  },
+  "description": "Simple backend project"
 }
